@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router';
 import { defineProps, ref, computed } from 'vue';
 
 const props = defineProps({
@@ -44,15 +45,15 @@ const truncatedDescription = computed(() => {
 
               <div class="flex flex-col lg:flex-row justify-between mb-4">
                 <div class="text-orange-700 mb-3">
-                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  <i class="pi pi-map-marker text-orange-700"></i>
                   {{job.location}}
                 </div>
-                <a
-                  :href="'/job' + job.id"
+                <RouterLink
+                  :to="'/job' + job.id"
                   class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                   Read More
-                </a>
+                </RouterLink>
               </div>
             </div>
           </div>

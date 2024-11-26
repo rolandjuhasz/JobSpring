@@ -44,6 +44,7 @@ const handleSubmit = async () => {
             contactPhone: form.company.contactPhone,
         },
     };
+    
     try {
     const response = await axios.put(`/api/jobs/${jobId}`, updatedJob);
     toast.success('Job Updated Successfully');

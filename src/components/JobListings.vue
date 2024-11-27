@@ -34,7 +34,7 @@ onMounted(async () => {
 <template>
     <section class="bg-blue-50 px-4 py-10">
         <div class="container-xl lg:container m-auto">
-            <h2 class="text-3xl font-bold text-green-500 mb6 text-center">Browse Jobs</h2>
+            <h2 class="text-3xl font-bold text-pink-900 mb6 text-center">Browse Jobs</h2>
 
             <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
                 <PulseLoader />

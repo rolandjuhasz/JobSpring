@@ -209,7 +209,7 @@ const handleSubmit = async () => {
 
             <div>
               <button
-                class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
+                class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 Add Job

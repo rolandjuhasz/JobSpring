@@ -111,6 +111,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "3ceb",
+      "title": "Notino",
+      "type": "Full-Time",
+      "location": "Remote/Office in Budapest",
+      "description": "Proven experience in frontend development (3+ years).\nProficiency in JavaScript/TypeScript and frameworks like React, Angular, or Vue.js.\nSolid understanding of HTML, CSS, and modern styling techniques (e.g., SCSS, Tailwind).\nFamiliarity with tools like Webpack, Vite, or other build systems.\nExperience with version control systems (Git) and Agile workflows.\nStrong attention to detail, a passion for clean code, and a user-first mindset.",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Notiono",
+        "description": "Notino is a leading e-commerce platform specializing in beauty and wellness products. We pride ourselves on delivering exceptional online shopping experiences to our customers in over 28 countries. Join us and become part of a fast-growing team dedicated to innovation, collaboration, and customer satisfaction.",
+        "contactEmail": "notino.info@notino.eu",
+        "contactPhone": "+36369687"
+      }
     }
   ]
 }

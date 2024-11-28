@@ -12,7 +12,7 @@
     <nav class="bg-pink-900 border-b">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="flex h-20 items-center justify-between">
-          <img class="h-20 w-auto" :src="logo" alt="Vue Jobs"/>
+          <a href="/"><img class="h-20 w-auto" :src="logo" alt="Vue Jobs"/></a>
           <div
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
             >

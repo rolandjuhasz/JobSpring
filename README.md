@@ -15,12 +15,7 @@ A web application designed to help users find job opportunities. The platform al
 
 ## 🔧 Prerequisites
 
-Milyen technológiai követelmények szükségesek a projekt futtatásához? 
-Például:
-
-- Node.js
-- npm/yarn
-- MongoDB (ha van)
+-
 
 ## ⚙️ Installation
 

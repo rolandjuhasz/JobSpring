@@ -32,6 +32,7 @@ git clone https://github.com/username/JobSpring.git
 -cd JobSpring
 ```
 ```
+```
 npm install
 ```
 npm run json-server

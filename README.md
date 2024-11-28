@@ -22,7 +22,7 @@ Például:
 - npm/yarn
 - MongoDB (ha van)
 
-## ⚙️ Telepítés
+## ⚙️ Installation
 
 1. Clone the repository:
 ```

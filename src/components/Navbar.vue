@@ -26,15 +26,15 @@
               <div class="flex space-x-2">
                 <RouterLink
                   to="/"
-                  :class="[isActiveLink('/')  ? 'text-orange-400' : 'hover:text-gray-900 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
+                  :class="[isActiveLink('/')  ? 'text-orange-500' : 'hover:text-gray-800 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
                   >Home</RouterLink>
                   <RouterLink
                   to="/jobs"
-                  :class="[isActiveLink('/jobs')  ? 'text-orange-400' : 'hover:text-gray-900 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
+                  :class="[isActiveLink('/jobs')  ? 'text-orange-500' : 'hover:text-gray-800 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
                   >Jobs</RouterLink>
                   <RouterLink
                   to="/jobs/add"
-                  :class="[isActiveLink('/jobs/add')  ? 'text-orange-400' : 'hover:text-gray-900 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
+                  :class="[isActiveLink('/jobs/add')  ? 'text-orange-500' : 'hover:text-gray-800 hover:text-white', 'text-white', 'px-3', 'py-2', 'rounded-md']"
                   >Add jobs</RouterLink>
               </div>
             </div>

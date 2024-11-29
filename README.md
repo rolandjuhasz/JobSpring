@@ -1,29 +1,37 @@
-# jobspring
+# JobSpring
 
-This template should help get you started developing with Vue 3 in Vite.
+# Job Search Platform
 
-## Recommended IDE Setup
+A web application designed to help users find job opportunities. The platform allows users to search for jobs, filter results by location, job type, and other criteria, and apply for positions directly through the site. It also provides a user-friendly interface to manage job applications and save favorite listings for easy access.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## 🚀 Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Job search functionality
+- Add jobs to a company's listings
+- Edit existing job listings
+- Delete job listings
 
-## Project Setup
 
-```sh
+## 🔧 Prerequisites
+
+-
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/username/JobSpring.git
+```
+```
+-cd JobSpring
+```
+```
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+npm run json-server
+```
+```
+npm run dev
 ```

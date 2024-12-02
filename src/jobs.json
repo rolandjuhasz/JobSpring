@@ -55,20 +55,6 @@
         "contactPhone": "555-555-5555"
       },
       "id": "6"
-    },
-    {
-      "id": "a0ca",
-      "title": "fasf",
-      "type": "Full-Time",
-      "location": "asf",
-      "description": "afs",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "asfas",
-        "description": "fas",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "06305944093"
-      }
     }
   ]
 }

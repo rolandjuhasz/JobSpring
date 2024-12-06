@@ -15,7 +15,9 @@ A web application designed to help users find job opportunities. The platform al
 
 ## 🔧 Prerequisites
 
--
+- Vue.js (Frontend)
+- Laravel (Backend) -> <b>in preparation</b>
+- SQL (Database)
 
 ## ⚙️ Installation
 

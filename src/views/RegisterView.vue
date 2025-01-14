@@ -1,8 +1,11 @@
 <script setup>
 import { useAuthStore } from '@/stores/auth';
+import { storeToRefs } from 'pinia';
 import { reactive } from 'vue';
 
-const authStore = useAuthStore()
+const {errors} = storeToRefs(useAuthStore());
+const { authenticate } = useAuthStore();
+
 
 const formData = reactive({
   name: '',
@@ -11,13 +14,14 @@ const formData = reactive({
   password_confirmation: '',
 });
 
+
 </script>
 
 <template>
   <div class="min-h-screen flex items-center justify-center bg-blue-50">
     <div class="bg-white rounded-lg shadow-lg p-8 max-w-sm w-full">
       <h1 class="text-2xl font-bold text-gray-500 text-center mb-6">Register</h1>
-      <form @submit.prevent="console.log(formData)">
+      <form @submit.prevent="authenticate('register', formData)">
         <div class="mb-4">
           <label for="name" class="block text-gray-500 font-medium mb-2">Name</label>
           <input
@@ -25,9 +29,9 @@ const formData = reactive({
             id="name"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Enter your name"
-            required
             v-model="formData.name"
           />
+          <p v-if="errors.name" class="error">{{ errors.name[0]}}</p>
         </div>
 
         <div class="mb-4">
@@ -37,9 +41,9 @@ const formData = reactive({
             id="name"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Enter your email"
-            required
             v-model="formData.email"
           />
+          <p v-if="errors.email" class="error">{{ errors.email[0]}}</p>
         </div>
 
         <div class="mb-4">
@@ -49,9 +53,9 @@ const formData = reactive({
             id="password"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Enter your password"
-            required
             v-model="formData.password"
           />
+          <p v-if="errors.password" class="error">{{ errors.password[0]}}</p>
         </div>
 
         <div class="mb-6">
@@ -61,7 +65,6 @@ const formData = reactive({
             id="confirm-password"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Confirm your password"
-            required
             v-model="formData.password_confirmation" 
           />
         </div>
